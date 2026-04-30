@@ -547,11 +547,30 @@ body::after {
     }
 
     .nav {
-        padding: 0 12px;
+        padding: 0 8px;
+        height: auto;
+        min-height: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .nav-brand {
+        margin-bottom: 5px;
+        font-size: 0.9em;
+    }
+
+    .nav-links {
+        gap: 2px;
+        justify-content: center;
+        width: 100%;
     }
 
     .nav-links a:not(.toggle) {
-        display: none;
+        display: inline-block;
+        font-size: 0.75em;
+        padding: 4px 6px;
     }
 
     .nav-divider {
