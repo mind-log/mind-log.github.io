@@ -40,13 +40,15 @@
     <nav class="nav">
         <a href="/" class="nav-brand">>_ MIND-LOG</a>
         <div class="nav-links">
-            <a href="/log001/" {% if page.url == '/log001/' %}class="active"{% endif %}>001</a>
-            <a href="/log002/" {% if page.url == '/log002/' %}class="active"{% endif %}>002</a>
-            <a href="/log003/" {% if page.url == '/log003/' %}class="active"{% endif %}>003</a>
-            <a href="/log004/" {% if page.url == '/log004/' %}class="active"{% endif %}>004</a>
-            <a href="/log005/" {% if page.url == '/log005/' %}class="active"{% endif %}>005</a>
-            <a href="/log006/" {% if page.url == '/log006/' %}class="active"{% endif %}>006</a>
-            <a href="/log007/" {% if page.url == '/log007/' %}class="active"{% endif %}>007</a>
+            <div class="log-nav">
+                <button class="nav-arrow left" id="navLeft" aria-label="Scroll Left">«</button>
+                <div class="nav-scroll-container" id="navScroll">
+                    {% for log in collections.logs %}
+                    <a href="{{ log.url }}" {% if page.url == log.url %}class="active"{% endif %}>{{ log.data.id }}</a>
+                    {% endfor %}
+                </div>
+                <button class="nav-arrow right" id="navRight" aria-label="Scroll Right">»</button>
+            </div>
             <a href="/about/" {% if page.url == '/about/' %}class="active"{% endif %}>ABOUT</a>
             <span class="nav-divider"></span>
             <button class="toggle" onclick="toggleMode()" id="modeToggle">SYS.LIGHT_MODE</button>

@@ -133,4 +133,28 @@ document.addEventListener("DOMContentLoaded", () => {
         // Event Listener for Search Input
         searchInput.addEventListener('input', filterLogs);
     }
+
+    // 2. Nav Scroll Arrows
+    const navScroll = document.getElementById('navScroll');
+    const navLeft = document.getElementById('navLeft');
+    const navRight = document.getElementById('navRight');
+
+    if (navScroll && navLeft && navRight) {
+        navLeft.addEventListener('click', () => {
+            navScroll.scrollBy({ left: -100, behavior: 'smooth' });
+        });
+        navRight.addEventListener('click', () => {
+            navScroll.scrollBy({ left: 100, behavior: 'smooth' });
+        });
+
+        // Hide arrows if not needed
+        const toggleArrows = () => {
+            navLeft.style.display = navScroll.scrollLeft <= 0 ? 'none' : 'flex';
+            navRight.style.display = navScroll.scrollLeft + navScroll.clientWidth >= navScroll.scrollWidth ? 'none' : 'flex';
+        };
+
+        navScroll.addEventListener('scroll', toggleArrows);
+        window.addEventListener('resize', toggleArrows);
+        toggleArrows(); // Initial check
+    }
 });

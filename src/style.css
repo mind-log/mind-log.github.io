@@ -231,15 +231,69 @@ article p {
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 15px;
+    flex: 1;
+    justify-content: flex-end;
+    min-width: 0; /* Allow shrinking */
+}
+
+.log-nav {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(0, 255, 136, 0.05);
+    border: 1px solid rgba(0, 255, 136, 0.2);
+    border-radius: 4px;
+    padding: 2px;
+    max-width: 300px;
+}
+
+.light .log-nav {
+    background: rgba(0, 85, 51, 0.05);
+    border-color: rgba(0, 85, 51, 0.2);
+}
+
+.nav-scroll-container {
+    display: flex;
+    gap: 4px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+    white-space: nowrap;
+    padding: 0 5px;
+}
+
+.nav-scroll-container::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+}
+
+.nav-arrow {
+    background: transparent;
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+    padding: 0 8px;
+    font-size: 1.2em;
+    opacity: 0.5;
+    transition: opacity 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-arrow:hover {
+    opacity: 1;
+    text-shadow: var(--glow);
 }
 
 .nav-links a {
     border-bottom: none;
     padding: 4px 8px;
-    font-size: 0.9em;
+    font-size: 0.85em;
     opacity: 0.6;
     transition: opacity 0.2s ease, text-shadow 0.2s ease;
+    white-space: nowrap;
 }
 
 .nav-links a:hover {
@@ -562,13 +616,17 @@ body::after {
     }
 
     .nav-links {
-        gap: 2px;
+        gap: 10px;
         justify-content: center;
         width: 100%;
+        flex-wrap: nowrap;
     }
 
-    .nav-links a:not(.toggle) {
-        display: inline-block;
+    .log-nav {
+        max-width: 150px; /* More compact on mobile */
+    }
+
+    .nav-links a {
         font-size: 0.75em;
         padding: 4px 6px;
     }
