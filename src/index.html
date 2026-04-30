@@ -1,0 +1,48 @@
+---
+layout: layouts/base.njk
+title: "Main Terminal"
+description: "Mind-Log: A futuristic repository of independent thought on AI, technology, human agency, and the systems that shape our digital world."
+extra_head: |
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Mind-Log",
+      "url": "https://mind-log.github.io/",
+      "description": "A futuristic repository of independent thought on AI, technology, human agency, and the systems that shape our digital world."
+  }
+  </script>
+---
+<div class="terminal" id="bootTerminal"></div>
+<h1>Mind-Log <span class="cursor"></span></h1>
+
+<div class="controls reveal-element">
+    <input type="text" id="searchInput" placeholder="SEARCH LOGS..." class="search-input">
+    <div class="tags-container" id="tagsContainer">
+        <button class="tag-filter active" data-tag="all">ALL</button>
+        <button class="tag-filter" data-tag="AI">AI</button>
+        <button class="tag-filter" data-tag="Data">DATA</button>
+        <button class="tag-filter" data-tag="Network">NETWORK</button>
+        <button class="tag-filter" data-tag="Emotion">EMOTION</button>
+        <button class="tag-filter" data-tag="Architecture">ARCHITECTURE</button>
+        <button class="tag-filter" data-tag="Future">FUTURE</button>
+        <button class="tag-filter" data-tag="Algorithms">ALGORITHMS</button>
+        <button class="tag-filter" data-tag="Loops">LOOPS</button>
+        <button class="tag-filter" data-tag="Control">CONTROL</button>
+        <button class="tag-filter" data-tag="Evolution">EVOLUTION</button>
+        <button class="tag-filter" data-tag="Mankind">MANKIND</button>
+        <button class="tag-filter" data-tag="System">SYSTEM</button>
+    </div>
+</div>
+
+<div class="log-list" id="logList">
+    {% for log in collections.logs | reverse %}
+    <div class="log-item">
+        <a href="{{ log.url }}">Log {{ log.data.id }} — {{ log.data.title }}</a>
+        <div class="log-meta">
+            <span>ID: {{ log.data.id }}</span>
+            <span>TAGS: {{ log.data.tags | join(', ') }}</span>
+        </div>
+    </div>
+    {% endfor %}
+</div>

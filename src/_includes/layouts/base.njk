@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} | Mind-Log</title>
+    <meta name="description" content="{{ description }}">
+
+    <!-- Prevent flash of wrong theme -->
+    <script>
+        if (localStorage.getItem('mind-log-theme') === 'light')
+            document.documentElement.classList.add('light');
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <!-- Font preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="alternate" type="application/rss+xml" title="Mind-Log RSS" href="/feed.xml">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ title }} | Mind-Log">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:image" content="https://mind-log.github.io/{{ og_image or 'images/hero.webp' }}">
+    <meta property="og:url" content="https://mind-log.github.io{{ page.url }}">
+    <meta property="og:type" content="{{ og_type or 'website' }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://mind-log.github.io{{ page.url }}">
+
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+    
+    {% if extra_head %}
+    {{ extra_head | safe }}
+    {% endif %}
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav-brand">>_ MIND-LOG</a>
+        <div class="nav-links">
+            <a href="/log001/" {% if page.url == '/log001/' %}class="active"{% endif %}>001</a>
+            <a href="/log002/" {% if page.url == '/log002/' %}class="active"{% endif %}>002</a>
+            <a href="/log003/" {% if page.url == '/log003/' %}class="active"{% endif %}>003</a>
+            <a href="/log004/" {% if page.url == '/log004/' %}class="active"{% endif %}>004</a>
+            <a href="/about/" {% if page.url == '/about/' %}class="active"{% endif %}>ABOUT</a>
+            <span class="nav-divider"></span>
+            <button class="toggle" onclick="toggleMode()" id="modeToggle">SYS.LIGHT_MODE</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        {{ content | safe }}
+        <section class="newsletter reveal-element">
+            <hr>
+            <h3>SYS.SUBSCRIBE</h3>
+            <p>Receive transmissions on AI, architecture, and the future of human agency.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="EMAIL_ADDRESS..." required class="search-input">
+                <button type="submit" class="tag-filter active">CONNECT</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

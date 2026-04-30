@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mind-Log</title>
+    <link>https://mind-log.github.io/</link>
+    <description>A futuristic repository of independent thought on AI, technology, human agency, and the systems that shape our digital world.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mind-log.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>Log 004 — mankind-rolling-release</title>
+      <link>https://mind-log.github.io/log004.html</link>
+      <description>The systems you use are quietly reshaping your attention, reactions, and thinking. A direct look at subtle digital conditioning and how to interrupt it.</description>
+      <pubDate>Wed, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://mind-log.github.io/log004.html</guid>
+    </item>
+
+    <item>
+      <title>Log 003 — The Loop We Don't Control</title>
+      <link>https://mind-log.github.io/log003.html</link>
+      <description>We believe we choose freely, but the space in which choices appear is shaped in advance. An examination of algorithmic loops, language, and the boundaries of perception.</description>
+      <pubDate>Tue, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://mind-log.github.io/log003.html</guid>
+    </item>
+
+    <item>
+      <title>Log 002 — The Monolith's Legacy: How Human Emotion May Outlast Us</title>
+      <link>https://mind-log.github.io/log002.html</link>
+      <description>Inspired by 2001: A Space Odyssey, an exploration of whether human emotion — not logic — is the quality that will define intelligence as it evolves beyond biological origins.</description>
+      <pubDate>Mon, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://mind-log.github.io/log002.html</guid>
+    </item>
+
+    <item>
+      <title>Log 001 — The Dead Internet It's Just a Symptom</title>
+      <link>https://mind-log.github.io/log001.html</link>
+      <description>The internet was once alive and messy. Now it's increasingly synthetic. An exploration of the Dead Internet Theory and what it reveals about automation, data extraction, and authenticity.</description>
+      <pubDate>Sun, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://mind-log.github.io/log001.html</guid>
+    </item>
+  </channel>
+</rss>

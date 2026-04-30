@@ -1,0 +1,38 @@
+---
+layout: layouts/base.njk
+---
+<header>
+    <h1>{{ title }}</h1>
+    <div class="date">
+        <span>SYSTEM.DATE: {{ date | dateFilter }}</span> | <span>AUTHOR: {{ author or "SYS.ADMIN" }}</span> | <span>READ.TIME: ~{{ content | readTime }} MINS</span>
+    </div>
+    <img src="/{{ image }}" alt="{{ image_alt }}" class="hero-image">
+</header>
+
+<article>
+    {{ content | safe }}
+</article>
+
+<section class="related-logs">
+    <h3>RELATED.LOGS</h3>
+    <div class="log-list">
+        {% for log in collections.logs %}
+            {% if log.url != page.url and loop.index <= 3 %}
+                <div class="log-item">
+                    <a href="{{ log.url }}">{{ log.data.title }}</a>
+                    <div class="log-meta">
+                        <span>ID: {{ log.data.id }}</span>
+                        <span>TAGS: {{ log.data.tags | join(', ') }}</span>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+<footer>
+    <hr>
+    <p>
+        <a href="/">← SYS.HOME</a>
+    </p>
+</footer>
