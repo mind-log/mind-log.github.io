@@ -1,41 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Mind-Log</title>
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind-Log | Main Terminal</title>
+    <meta name="description" content="A tech futuristic repository of thoughts and logs.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
 
-<button class="toggle" onclick="toggleMode()">Toggle Mode</button>
+    <div class="toggle-wrapper">
+        <button class="toggle" onclick="toggleMode()" id="modeToggle">SYS.LIGHT_MODE</button>
+    </div>
 
-<div class="terminal">
-<p>> Initializing node...</p>
-<p>> Loading logs...</p>
-<p>> Ready</p>
-</div>
+    <main class="container">
+        <div class="terminal" id="bootTerminal">
+            <!-- Content injected by JS -->
+        </div>
 
-<h1>Mind-Log</h1>
+        <h1>Mind-Log <span class="cursor"></span></h1>
 
-<div class="log">
-<a href="log001.html">Log 001 — Dead Internet it's just a Symptom</a>
-</div>
+        <div class="log-list">
+            <div class="log-item">
+                <a href="log001.html">Log 001 — The Dead Internet It's Just a Symptom</a>
+                <div class="log-meta">
+                    <span>ID: 001</span>
+                    <span>TAGS: AI, Data, Network</span>
+                </div>
+            </div>
 
-<div class="log">
-<a href="log002.html">Log 002 — The Monolith’s Legacy: How Human Emotion May Outlast Us</a>
-</div>
+            <div class="log-item">
+                <a href="log002.html">Log 002 — The Monolith’s Legacy: How Human Emotion May Outlast Us</a>
+                <div class="log-meta">
+                    <span>ID: 002</span>
+                    <span>TAGS: Emotion, Architecture, Future</span>
+                </div>
+            </div>
 
-<div class="log">
-<a href="log003.html">Log 003 — The Loop We Don’t Control</a>
-</div>
+            <div class="log-item">
+                <a href="log003.html">Log 003 — The Loop We Don’t Control</a>
+                <div class="log-meta">
+                    <span>ID: 003</span>
+                    <span>TAGS: Algorithms, Loops, Control</span>
+                </div>
+            </div>
 
-<div class="log">
-<a href="log004.html">Log 004 — mankind-rolling-release</a>
-</div>
+            <div class="log-item">
+                <a href="log004.html">Log 004 — mankind-rolling-release</a>
+                <div class="log-meta">
+                    <span>ID: 004</span>
+                    <span>TAGS: Evolution, Mankind, System</span>
+                </div>
+            </div>
+        </div>
+    </main>
 
-
-  
 </body>
 </html>
