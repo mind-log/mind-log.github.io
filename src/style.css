@@ -277,8 +277,9 @@ article p {
     cursor: pointer;
     padding: 0 4px;
     font-size: 1.1em;
-    opacity: 0.7;
-    transition: all 0.2s ease;
+    opacity: 0; /* Default hidden, JS will show if needed */
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.2s ease, text-shadow 0.2s ease;
     display: flex;
     align-items: center;
     justify-content: center;
