@@ -1,0 +1,1147 @@
+{
+  "categories": {
+    "psychology": "Psychology & Psychoanalysis",
+    "astrology": "Astrology & Numerology",
+    "japanese": "Japanese Studies",
+    "graphology": "Graphology",
+    "testing": "Psychological Testing",
+    "clinical": "Clinical & Diagnostic",
+    "occult": "Occult & Esoteric",
+    "paranormal": "Paranormal & Conspiracy",
+    "literature": "Literature & Arts",
+    "magic": "Magic & Mentalism",
+    "martial-arts": "Martial Arts & Sports",
+    "pharmacology": "Pharmacology & Substances",
+    "misc": "Miscellaneous"
+  },
+  "pdfs": [
+    {
+      "file": "Astrologia Karmica.pdf",
+      "title": "Astrologia Karmica",
+      "lang": "ES",
+      "category": "astrology"
+    },
+    {
+      "file": "Astrologia Numerologia Y Rayos.pdf",
+      "title": "Astrologia Numerologia Y Rayos",
+      "lang": "ES",
+      "category": "astrology"
+    },
+    {
+      "file": "astrologiaclavedelasvidasanteriores.pdf",
+      "title": "Astrologiaclavedelasvidasanteriores",
+      "lang": "ES",
+      "category": "astrology"
+    },
+    {
+      "file": "Carutti Eugenio - Ascendentes En Astrologia 1 Y 2 (1).PDF",
+      "title": "Carutti Eugenio Ascendentes En Astrologia 1 Y 2",
+      "lang": "EN",
+      "category": "astrology"
+    },
+    {
+      "file": "Carutti Eugenio - Las Lunas Refugio De La Memoria.PDF",
+      "title": "Carutti Eugenio Las Lunas Refugio De La Memoria",
+      "lang": "ES",
+      "category": "astrology"
+    },
+    {
+      "file": "El libro de las relaciones - Mia Astral.pdf",
+      "title": "El libro de las relaciones Mia Astral",
+      "lang": "ES",
+      "category": "astrology"
+    },
+    {
+      "file": "firmicus_maternus-mathesis-1-3.pdf",
+      "title": "Firmicus maternus mathesis 1 3",
+      "lang": "EN",
+      "category": "astrology"
+    },
+    {
+      "file": "la_luna_en_los_signos.pdf",
+      "title": "La luna en los signos",
+      "lang": "EN",
+      "category": "astrology"
+    },
+    {
+      "file": "la luna - jairo restrepo rivera.pdf",
+      "title": "La luna jairo restrepo rivera",
+      "lang": "ES",
+      "category": "astrology"
+    },
+    {
+      "file": "9.Lilith el enfado interior.pdf",
+      "title": "Lilith el enfado interior",
+      "lang": "ES",
+      "category": "astrology"
+    },
+    {
+      "file": "2016-08-16_LILITH EN EL SIGLO XXI.pdf",
+      "title": "LILITH EN EL SIGLO XXI",
+      "lang": "EN",
+      "category": "astrology"
+    },
+    {
+      "file": "Liz-Greene-significado-astrologico-del-sol.pdf",
+      "title": "Liz Greene significado astrologico del sol",
+      "lang": "ES",
+      "category": "astrology"
+    },
+    {
+      "file": "Los 360 Grados Del Zodiaco Simbolizados.pdf",
+      "title": "Los 360 Grados Del Zodiaco Simbolizados",
+      "lang": "ES",
+      "category": "astrology"
+    },
+    {
+      "file": "manualbasicodenumerologia.pdf",
+      "title": "Manualbasicodenumerologia",
+      "lang": "EN",
+      "category": "astrology"
+    },
+    {
+      "file": "Nodos Lunares y reencarnación.pdf",
+      "title": "Nodos Lunares y reencarnación",
+      "lang": "EN",
+      "category": "astrology"
+    },
+    {
+      "file": "NUMEROLOGIA BASICA AXCAN.pdf",
+      "title": "NUMEROLOGIA BASICA AXCAN",
+      "lang": "EN",
+      "category": "astrology"
+    },
+    {
+      "file": "Ptolomeo Claudius - Tetrabiblos.pdf",
+      "title": "Ptolomeo Claudius Tetrabiblos",
+      "lang": "EN",
+      "category": "astrology"
+    },
+    {
+      "file": "RelacionesKarmicasMartinSchulman.pdf",
+      "title": "RelacionesKarmicasMartinSchulman",
+      "lang": "ES",
+      "category": "astrology"
+    },
+    {
+      "file": "Revolucion Solar.pdf",
+      "title": "Revolucion Solar",
+      "lang": "ES",
+      "category": "astrology"
+    },
+    {
+      "file": "spritual_astrology.pdf",
+      "title": "Spritual astrology",
+      "lang": "ES",
+      "category": "astrology"
+    },
+    {
+      "file": "TOMO 15 Y 16 Grupo Venus.pdf",
+      "title": "TOMO 15 Y 16 Grupo Venus",
+      "lang": "EN",
+      "category": "astrology"
+    },
+    {
+      "file": "Trigo-Juan-Astrologia-Medica.pdf",
+      "title": "Trigo Juan Astrologia Medica",
+      "lang": "ES",
+      "category": "astrology"
+    },
+    {
+      "file": "cie-X.pdf",
+      "title": "Cie X",
+      "lang": "EN",
+      "category": "clinical"
+    },
+    {
+      "file": "CIE10.pdf",
+      "title": "CIE10",
+      "lang": "EN",
+      "category": "clinical"
+    },
+    {
+      "file": "Examen psiquiatrico Rojas Alfaro.pdf",
+      "title": "Examen psiquiatrico Rojas Alfaro",
+      "lang": "ES",
+      "category": "clinical"
+    },
+    {
+      "file": "listas_de_causas_cie_10.pdf",
+      "title": "Listas de causas cie 10",
+      "lang": "EN",
+      "category": "clinical"
+    },
+    {
+      "file": "manual-diagnc3b3stico-y-estadc3adstico-de-los-trastornos-mentales-dsm-iv.pdf",
+      "title": "Manual diagnc3b3stico y estadc3adstico de los trastornos mentales dsm iv",
+      "lang": "ES",
+      "category": "clinical"
+    },
+    {
+      "file": "prevencion de conductas de riesgo.pdf",
+      "title": "Prevencion de conductas de riesgo",
+      "lang": "ES",
+      "category": "clinical"
+    },
+    {
+      "file": "trastornos mentales y del comportamiento.pdf",
+      "title": "Trastornos mentales y del comportamiento",
+      "lang": "ES",
+      "category": "clinical"
+    },
+    {
+      "file": "Adolfo Nanot - La Grafologia, Espejo De La Personalidad.pdf",
+      "title": "Adolfo Nanot La Grafologia, Espejo De La Personalidad",
+      "lang": "ES",
+      "category": "graphology"
+    },
+    {
+      "file": "grafologia.pdf",
+      "title": "Grafologia",
+      "lang": "ES",
+      "category": "graphology"
+    },
+    {
+      "file": "grafologia cientifica en la gestion del talento humano.pdf",
+      "title": "Grafologia cientifica en la gestion del talento humano",
+      "lang": "EN",
+      "category": "graphology"
+    },
+    {
+      "file": "grafologia-como-interpretar-caligrafia-14998-completo.pdf",
+      "title": "Grafologia como interpretar caligrafia 14998 completo",
+      "lang": "ES",
+      "category": "graphology"
+    },
+    {
+      "file": "grafologia contexto educativo.pdf",
+      "title": "Grafologia contexto educativo",
+      "lang": "ES",
+      "category": "graphology"
+    },
+    {
+      "file": "grafologia-firma.pdf",
+      "title": "Grafologia firma",
+      "lang": "ES",
+      "category": "graphology"
+    },
+    {
+      "file": "Grafologia Infantil - Rosa Leonor Pera.pdf",
+      "title": "Grafologia Infantil Rosa Leonor Pera",
+      "lang": "ES",
+      "category": "graphology"
+    },
+    {
+      "file": "grafologia la personalidad paranoide.pdf",
+      "title": "Grafologia la personalidad paranoide",
+      "lang": "ES",
+      "category": "graphology"
+    },
+    {
+      "file": "grafologia palabra.pdf",
+      "title": "Grafologia palabra",
+      "lang": "ES",
+      "category": "graphology"
+    },
+    {
+      "file": "GrafologiaForenseAplicadaALaCriminalistica-4761262.pdf",
+      "title": "GrafologiaForenseAplicadaALaCriminalistica 4761262",
+      "lang": "ES",
+      "category": "graphology"
+    },
+    {
+      "file": "Akutagawa.pdf",
+      "title": "Akutagawa",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "BREVE HISTORIA DEL JAPÓN FEUDAL.pdf",
+      "title": "BREVE HISTORIA DEL JAPÓN FEUDAL",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "catalogo_satori.pdf",
+      "title": "Catalogo satori",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "Cronología historica de Japón.pdf",
+      "title": "Cronología historica de Japón",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "Cuentos Japoneses traducidos al español.pdf",
+      "title": "Cuentos Japoneses traducidos al español",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "Cultura de Japón.pdf",
+      "title": "Cultura de Japón",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "Cultura y femeneidad en Japón.pdf",
+      "title": "Cultura y femeneidad en Japón",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "Descifrando los aspectos culturales que definen la cultura Japonesa.pdf",
+      "title": "Descifrando los aspectos culturales que definen la cultura Japonesa",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "destino_monarquia_japonesa.pdf",
+      "title": "Destino monarquia japonesa",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "el arte del té en Japón.pdf",
+      "title": "El arte del té en Japón",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "Espana-y-Japon-XVI-XVII-Desencuentro.pdf",
+      "title": "Espana y Japon XVI XVII Desencuentro",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "Fábulas y leyendas de Japón.pdf",
+      "title": "Fábulas y leyendas de Japón",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "hiragana_spanish.pdf",
+      "title": "Hiragana spanish",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "hiragana_table.pdf",
+      "title": "Hiragana table",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "HiraganaKatakanaWorksheet.pdf",
+      "title": "HiraganaKatakanaWorksheet",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "Historia del Sake.pdf",
+      "title": "Historia del Sake",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "HISTORIA_ECON_japon.pdf",
+      "title": "HISTORIA ECON japon",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "in-a-grove.pdf",
+      "title": "In a grove",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "Japan_comidastipicas_parte2.pdf",
+      "title": "Japan comidastipicas parte2",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "Japón después de ser el Número uno.pdf",
+      "title": "Japón después de ser el Número uno",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "Japón en la historia del mundo.pdf",
+      "title": "Japón en la historia del mundo",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "Junichiro_Tanizaki.pdf",
+      "title": "Junichiro Tanizaki",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "kanjibookjlptn5.pdf",
+      "title": "Kanjibookjlptn5",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "konjaku-monogatari.pdf",
+      "title": "Konjaku monogatari",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "La belleza de lo impermanente como proyecto humanista un ensayo sobre la estetica japonesa y sus raices en la filosofía alemana.pdf",
+      "title": "La belleza de lo impermanente como proyecto humanista un ensayo sobre la estetica japonesa y sus raices en la filosofía alemana",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "La democracia en el Japón actual.pdf",
+      "title": "La democracia en el Japón actual",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "La guerra Ruso Japonesa 1904-1905.pdf",
+      "title": "La guerra Ruso Japonesa 1904 1905",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "La historia diplomatica de Japón 1853-1945.pdf",
+      "title": "La historia diplomatica de Japón 1853 1945",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "La incorporación de Japón al occidente.pdf",
+      "title": "La incorporación de Japón al occidente",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "LaCulturaJaponesa.pdf",
+      "title": "LaCulturaJaponesa",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "Level2KanjiList.pdf",
+      "title": "Level2KanjiList",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "Level3KanjiList.pdf",
+      "title": "Level3KanjiList",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "Level4Kanjilist.pdf",
+      "title": "Level4Kanjilist",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "List of 1000 Kanji.pdf",
+      "title": "List of 1000 Kanji",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "Nociones sobre la  Historia de Japón.pdf",
+      "title": "Nociones sobre la Historia de Japón",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "Okinawan Studies 2 - Okinawas Distinguishing Characteristics.pdf",
+      "title": "Okinawan Studies 2 Okinawas Distinguishing Characteristics",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "PoliticaYCulturaEnLaHistoriaDeJapon.pdf",
+      "title": "PoliticaYCulturaEnLaHistoriaDeJapon",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "ryunosuke.pdf",
+      "title": "Ryunosuke",
+      "lang": "EN",
+      "category": "japanese"
+    },
+    {
+      "file": "ryunosuke akutagawa el dragon roshomon y otros cuentos.pdf",
+      "title": "Ryunosuke akutagawa el dragon roshomon y otros cuentos",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "ryunosuke akutagawa el mago trece cuentos japoneses.pdf",
+      "title": "Ryunosuke akutagawa el mago trece cuentos japoneses",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "ryunosuke akutagawa el tabaco y el diablo.pdf",
+      "title": "Ryunosuke akutagawa el tabaco y el diablo",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "ryunosuke akutagawa -la fiesta del baile - blanco- la mandarina.pdf",
+      "title": "Ryunosuke akutagawa la fiesta del baile blanco la mandarina",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "Tratando de entender Japón a comiensos del siglo xxi.pdf",
+      "title": "Tratando de entender Japón a comiensos del siglo xxi",
+      "lang": "ES",
+      "category": "japanese"
+    },
+    {
+      "file": "AP_-_Clockwork_Orange_-_Nadsat_Dictionary.pdf",
+      "title": "AP Clockwork Orange Nadsat Dictionary",
+      "lang": "EN",
+      "category": "literature"
+    },
+    {
+      "file": "HailtotheThief.pdf",
+      "title": "HailtotheThief",
+      "lang": "EN",
+      "category": "literature"
+    },
+    {
+      "file": "inrainbows.pdf",
+      "title": "Inrainbows",
+      "lang": "EN",
+      "category": "literature"
+    },
+    {
+      "file": "KidA.pdf",
+      "title": "KidA",
+      "lang": "EN",
+      "category": "literature"
+    },
+    {
+      "file": "Los Simpson y la Filosofia.pdf",
+      "title": "Los Simpson y la Filosofia",
+      "lang": "ES",
+      "category": "literature"
+    },
+    {
+      "file": "Los Simpson y las matematicas - Simon Singh.pdf",
+      "title": "Los Simpson y las matematicas Simon Singh",
+      "lang": "ES",
+      "category": "literature"
+    },
+    {
+      "file": "OKComputer.pdf",
+      "title": "OKComputer",
+      "lang": "EN",
+      "category": "literature"
+    },
+    {
+      "file": "PlantasDePapiermache.pdf",
+      "title": "PlantasDePapiermache",
+      "lang": "EN",
+      "category": "literature"
+    },
+    {
+      "file": "Vida de un loco. Tres relatos.pdf",
+      "title": "Vida de un loco. Tres relatos",
+      "lang": "ES",
+      "category": "literature"
+    },
+    {
+      "file": "David Blaine Magic Secrets.pdf",
+      "title": "David Blaine Magic Secrets",
+      "lang": "EN",
+      "category": "magic"
+    },
+    {
+      "file": "pdfcoffee.com_leechninja-max-maven-prism-pdf-free.pdf",
+      "title": "Leechninja max maven prism",
+      "lang": "EN",
+      "category": "magic"
+    },
+    {
+      "file": "pdfcoffee.com_max-maven-picturepdf-pdf-free.pdf",
+      "title": "Max maven picturepdf",
+      "lang": "EN",
+      "category": "magic"
+    },
+    {
+      "file": "kupdf.net_max-maven-the-blue-red-and-green-books-of-mentalism.pdf",
+      "title": "Max maven the blue red and green books of mentalism",
+      "lang": "EN",
+      "category": "magic"
+    },
+    {
+      "file": "Mysterious stranger By Blaine David 1973-pdfread.net.pdf",
+      "title": "Mysterious stranger By Blaine David 1973",
+      "lang": "EN",
+      "category": "magic"
+    },
+    {
+      "file": "goshin_jutsu.pdf",
+      "title": "Goshin jutsu",
+      "lang": "EN",
+      "category": "martial-arts"
+    },
+    {
+      "file": "Muay_Thai_-_The_art_of_fighting.pdf",
+      "title": "Muay Thai The art of fighting",
+      "lang": "EN",
+      "category": "martial-arts"
+    },
+    {
+      "file": "Punches.and_.Elbow4_.pdf",
+      "title": "Punches.and .Elbow4",
+      "lang": "EN",
+      "category": "martial-arts"
+    },
+    {
+      "file": "behold-a-pale-horse.pdf",
+      "title": "Behold a pale horse",
+      "lang": "EN",
+      "category": "misc"
+    },
+    {
+      "file": "Como Conocer a las Personas por su Lenguaje Corporal -wpnlesfera com 120.pdf",
+      "title": "Como Conocer a las Personas por su Lenguaje Corporal",
+      "lang": "ES",
+      "category": "misc"
+    },
+    {
+      "file": "DSG-El_Caracter_segun_los_Astros.pdf",
+      "title": "DSG El Caracter segun los Astros",
+      "lang": "EN",
+      "category": "misc"
+    },
+    {
+      "file": "ehrlich68.pdf",
+      "title": "Ehrlich68",
+      "lang": "EN",
+      "category": "misc"
+    },
+    {
+      "file": "El-libro-tibetano-de-los-muertos.pdf",
+      "title": "El libro tibetano de los muertos",
+      "lang": "ES",
+      "category": "misc"
+    },
+    {
+      "file": "El_reloj_de_la_vida-Huber.pdf",
+      "title": "El reloj de la vida Huber",
+      "lang": "ES",
+      "category": "misc"
+    },
+    {
+      "file": "granhum.pdf",
+      "title": "Granhum",
+      "lang": "EN",
+      "category": "misc"
+    },
+    {
+      "file": "La_cara_oculta_del_rostro_humano.pdf",
+      "title": "La cara oculta del rostro humano",
+      "lang": "EN",
+      "category": "misc"
+    },
+    {
+      "file": "LaEducacionEnValoresYSuPracticaEnElAula-1012022.pdf",
+      "title": "LaEducacionEnValoresYSuPracticaEnElAula 1012022",
+      "lang": "ES",
+      "category": "misc"
+    },
+    {
+      "file": "numeros ocultos y geometria sagrada.pdf",
+      "title": "Numeros ocultos y geometria sagrada",
+      "lang": "ES",
+      "category": "misc"
+    },
+    {
+      "file": "ohsi.pdf",
+      "title": "Ohsi",
+      "lang": "EN",
+      "category": "misc"
+    },
+    {
+      "file": "34.TamaokaKirsnerYanaseMiyaokaKawakami2002.pdf",
+      "title": "TamaokaKirsnerYanaseMiyaokaKawakami2002",
+      "lang": "EN",
+      "category": "misc"
+    },
+    {
+      "file": "TEST-DEL-ÁRBOL.pdf",
+      "title": "TEST DEL ÁRBOL",
+      "lang": "EN",
+      "category": "misc"
+    },
+    {
+      "file": "TheNewWorldOrder.pdf",
+      "title": "TheNewWorldOrder",
+      "lang": "EN",
+      "category": "misc"
+    },
+    {
+      "file": "Tony-Hawks-Pro-Skater-3_Manual_Win_EN.pdf",
+      "title": "Tony Hawks Pro Skater 3 Manual Win EN",
+      "lang": "EN",
+      "category": "misc"
+    },
+    {
+      "file": "Aleister-Crowley-Thoth-Tarot-Booklet.pdf",
+      "title": "Aleister Crowley Thoth Tarot Booklet",
+      "lang": "EN",
+      "category": "occult"
+    },
+    {
+      "file": "Cooper J C El Simbolismo.pdf",
+      "title": "Cooper J C El Simbolismo",
+      "lang": "ES",
+      "category": "occult"
+    },
+    {
+      "file": "El-Chamanismo-y-las-Tecnicas-Arcaicas-del-Extasis.pdf",
+      "title": "El Chamanismo y las Tecnicas Arcaicas del Extasis",
+      "lang": "ES",
+      "category": "occult"
+    },
+    {
+      "file": "LaSimbolicaDelTarotDeMarsellaEnElImaginarioPoetico.pdf",
+      "title": "LaSimbolicaDelTarotDeMarsellaEnElImaginarioPoetico",
+      "lang": "ES",
+      "category": "occult"
+    },
+    {
+      "file": "pdfcoffee.com_tarot-de-thoth-deck-completo-aleister-crowley-pdf-free.pdf",
+      "title": "Tarot de thoth deck completo aleister crowley",
+      "lang": "EN",
+      "category": "occult"
+    },
+    {
+      "file": "a_a history of secret human experimentations.pdf",
+      "title": "A a history of secret human experimentations",
+      "lang": "EN",
+      "category": "paranormal"
+    },
+    {
+      "file": "Cartas_Illuminatis_NWO.pdf",
+      "title": "Cartas Illuminatis NWO",
+      "lang": "EN",
+      "category": "paranormal"
+    },
+    {
+      "file": "defendamonos-de-los-dioses.pdf",
+      "title": "Defendamonos de los dioses",
+      "lang": "EN",
+      "category": "paranormal"
+    },
+    {
+      "file": "EL Libro de Atom. Fantasia Matemática de los Multiversos.pdf",
+      "title": "EL Libro de Atom. Fantasia Matemática de los Multiversos",
+      "lang": "ES",
+      "category": "paranormal"
+    },
+    {
+      "file": "El libro de Atom. Fenomenos Paranormales, un asunto Hiperdimensional.pdf",
+      "title": "El libro de Atom. Fenomenos Paranormales, un asunto Hiperdimensional",
+      "lang": "ES",
+      "category": "paranormal"
+    },
+    {
+      "file": "EL Libro de Atom. Naturalismo Hiperdimensional.pdf",
+      "title": "EL Libro de Atom. Naturalismo Hiperdimensional",
+      "lang": "ES",
+      "category": "paranormal"
+    },
+    {
+      "file": "extrasensory_perception_part01.pdf",
+      "title": "Extrasensory perception part01",
+      "lang": "EN",
+      "category": "paranormal"
+    },
+    {
+      "file": "FreixedoLosHijosdeLaNuevaEra.pdf",
+      "title": "FreixedoLosHijosdeLaNuevaEra",
+      "lang": "ES",
+      "category": "paranormal"
+    },
+    {
+      "file": "Grandes Enigmas Fenomenos Paranormales.pdf",
+      "title": "Grandes Enigmas Fenomenos Paranormales",
+      "lang": "ES",
+      "category": "paranormal"
+    },
+    {
+      "file": "Illuminati-Card-Game.pdf",
+      "title": "Illuminati Card Game",
+      "lang": "EN",
+      "category": "paranormal"
+    },
+    {
+      "file": "la-amenaza extraterrestre.pdf",
+      "title": "La amenaza extraterrestre",
+      "lang": "ES",
+      "category": "paranormal"
+    },
+    {
+      "file": "majestic.pdf",
+      "title": "Majestic",
+      "lang": "EN",
+      "category": "paranormal"
+    },
+    {
+      "file": "parapsicologia.pdf",
+      "title": "Parapsicologia",
+      "lang": "ES",
+      "category": "paranormal"
+    },
+    {
+      "file": "parapsicologia_cuantica.pdf",
+      "title": "Parapsicologia cuantica",
+      "lang": "ES",
+      "category": "paranormal"
+    },
+    {
+      "file": "reglas_illuminati.pdf",
+      "title": "Reglas illuminati",
+      "lang": "ES",
+      "category": "paranormal"
+    },
+    {
+      "file": "roswell.pdf",
+      "title": "Roswell",
+      "lang": "EN",
+      "category": "paranormal"
+    },
+    {
+      "file": "The_INWO_Book.pdf",
+      "title": "The INWO Book",
+      "lang": "EN",
+      "category": "paranormal"
+    },
+    {
+      "file": "thetruestoryofthebilderberggroup.pdf",
+      "title": "Thetruestoryofthebilderberggroup",
+      "lang": "EN",
+      "category": "paranormal"
+    },
+    {
+      "file": "escopolamina.pdf",
+      "title": "Escopolamina",
+      "lang": "EN",
+      "category": "pharmacology"
+    },
+    {
+      "file": "ICEERS_PSYCHEPLANTS_es_volume_II.pdf",
+      "title": "ICEERS PSYCHEPLANTS es volume II",
+      "lang": "EN",
+      "category": "pharmacology"
+    },
+    {
+      "file": "Intoxicación-con-Brugmansia-y-Datura-1.pdf",
+      "title": "Intoxicación con Brugmansia y Datura 1",
+      "lang": "EN",
+      "category": "pharmacology"
+    },
+    {
+      "file": "nuevas sustancias psicoactivas.pdf",
+      "title": "Nuevas sustancias psicoactivas",
+      "lang": "ES",
+      "category": "pharmacology"
+    },
+    {
+      "file": "cinco-lecciones-sobre-jacques-lacan.pdf",
+      "title": "Cinco lecciones sobre jacques lacan",
+      "lang": "EN",
+      "category": "psychology"
+    },
+    {
+      "file": "Dialnet-LasRelacionesObjetalesYElDesarrolloDelPsiquismo-3751599.pdf",
+      "title": "Dialnet LasRelacionesObjetalesYElDesarrolloDelPsiquismo 3751599",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "Diccionario del psicoanálisis [Roland Chemama].pdf",
+      "title": "Diccionario del psicoanálisis [Roland Chemama]",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "1992-10-22-El-estadio-del-espejo-Introduccion-a-la-teoria-del-yo-en-Lacan.pdf",
+      "title": "El estadio del espejo Introduccion a la teoria del yo en Lacan",
+      "lang": "EN",
+      "category": "psychology"
+    },
+    {
+      "file": "EL Seminario 1. Los escritos Técnicos de Freud.pdf",
+      "title": "EL Seminario 1. Los escritos Técnicos de Freud",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "El Seminario 10. La angustia [Jacques Lacan].pdf",
+      "title": "El Seminario 10. La angustia [Jacques Lacan]",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "El Seminario 11. Los cuatro conceptos fundamentales [Jacques Lacan].pdf",
+      "title": "El Seminario 11. Los cuatro conceptos fundamentales [Jacques Lacan]",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "El Seminario 16. De un Otro al otro [Jacques Lacan].pdf",
+      "title": "El Seminario 16. De un Otro al otro [Jacques Lacan]",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "El Seminario 17. El reverso del psicoanálisis [Jacques Lacan].pdf",
+      "title": "El Seminario 17. El reverso del psicoanálisis [Jacques Lacan]",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "El Seminario 18. De un discurso que no fuera del semblante [Jacques Lacan].pdf",
+      "title": "El Seminario 18. De un discurso que no fuera del semblante [Jacques Lacan]",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "El Seminario 19.o peor [Jacques Lacan].pdf",
+      "title": "El Seminario 19.o peor [Jacques Lacan]",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "El Seminario 20. Aun [Jacques Lacan].pdf",
+      "title": "El Seminario 20. Aun [Jacques Lacan]",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "El Seminario 23. El sinthome [Jacques Lacan].pdf",
+      "title": "El Seminario 23. El sinthome [Jacques Lacan]",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "El Seminario 3. Las Psicosis.pdf",
+      "title": "El Seminario 3. Las Psicosis",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "El Seminario 5. Las formaciones del inconsciente [Jacques Lacan].pdf",
+      "title": "El Seminario 5. Las formaciones del inconsciente [Jacques Lacan]",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "El Seminario 6. El deseo y su interpretación [Jacques Lacan].pdf",
+      "title": "El Seminario 6. El deseo y su interpretación [Jacques Lacan]",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "El Seminario 7. La ética del psicoanálisis [Jacques Lacan].pdf",
+      "title": "El Seminario 7. La ética del psicoanálisis [Jacques Lacan]",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "El Seminario 8. La transferencia [Jacques Lacan].pdf",
+      "title": "El Seminario 8. La transferencia [Jacques Lacan]",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "ElConstructoAnsiedadEnPsicologia.pdf",
+      "title": "ElConstructoAnsiedadEnPsicologia",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "elcuerpoenlaensenanzadejacqueslacan.pdf",
+      "title": "Elcuerpoenlaensenanzadejacqueslacan",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "FREUD - La interpretación de los sueños.pdf",
+      "title": "FREUD La interpretación de los sueños",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "FREUD, Sigmund (1886-1899) - Obra completa, I. Publicaciones prepsicoanalíticas y manuscritos inéditos en vida de Freud (Amorrortu, Buenos Aires, 1982-1992).pdf",
+      "title": "FREUD, Sigmund (1886 1899) Obra completa, I. Publicaciones prepsicoanalíticas y manuscritos inéditos en vida de Freud (Amorrortu, Buenos Aires, 1982 1992)",
+      "lang": "EN",
+      "category": "psychology"
+    },
+    {
+      "file": "FREUD, Sigmund (1886-1899) - Obra completa, II.pdf",
+      "title": "FREUD, Sigmund (1886 1899) Obra completa, II",
+      "lang": "EN",
+      "category": "psychology"
+    },
+    {
+      "file": "Haley, Jay - Las tácticas de poder de Jesucristo y otros ensayos.pdf",
+      "title": "Haley, Jay Las tácticas de poder de Jesucristo y otros ensayos",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "henry ey tratado de psiquiatria.pdf",
+      "title": "Henry ey tratado de psiquiatria",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "Jean-Claude Maleval - La forclusión del nombre del padre..pdf",
+      "title": "Jean Claude Maleval La forclusión del nombre del padre.",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "lacan-seminario-20-aun.pdf",
+      "title": "Lacan seminario 20 aun",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "los mandalas en el libro rojo de jung.pdf",
+      "title": "Los mandalas en el libro rojo de jung",
+      "lang": "EN",
+      "category": "psychology"
+    },
+    {
+      "file": "Nasio, J. D. - Los ojos de Laura. El concepto de objeto a en la teoría de J. Lacan.pdf",
+      "title": "Nasio, J. D. Los ojos de Laura. El concepto de objeto a en la teoría de J. Lacan",
+      "lang": "EN",
+      "category": "psychology"
+    },
+    {
+      "file": "Suicidio, medicamentos y orden público (ESCUELA LACANIANA) - Clara Bardon & Puig.pdf",
+      "title": "Suicidio, medicamentos y orden público (ESCUELA LACANIANA) Clara Bardon & Puig",
+      "lang": "ES",
+      "category": "psychology"
+    },
+    {
+      "file": "Tec. en Terapia Infantil Gestalt.pdf",
+      "title": "Tec. en Terapia Infantil Gestalt",
+      "lang": "EN",
+      "category": "psychology"
+    },
+    {
+      "file": "como_escribir_informe_psicologico.pdf",
+      "title": "Como escribir informe psicologico",
+      "lang": "ES",
+      "category": "testing"
+    },
+    {
+      "file": "EL Test de HTP Acromática. No integrado.pdf",
+      "title": "EL Test de HTP Acromática. No integrado",
+      "lang": "ES",
+      "category": "testing"
+    },
+    {
+      "file": "El test grafico del dibujo de la figura humana - Maria Casullo.pdf",
+      "title": "El test grafico del dibujo de la figura humana Maria Casullo",
+      "lang": "ES",
+      "category": "testing"
+    },
+    {
+      "file": "HTP (corrección).pdf",
+      "title": "HTP (corrección)",
+      "lang": "EN",
+      "category": "testing"
+    },
+    {
+      "file": "Informe Interpretativo del MCMI-III.pdf",
+      "title": "Informe Interpretativo del MCMI III",
+      "lang": "ES",
+      "category": "testing"
+    },
+    {
+      "file": "Informe_MCMI-III_Caso_Ilustrativo.pdf",
+      "title": "Informe MCMI III Caso Ilustrativo",
+      "lang": "ES",
+      "category": "testing"
+    },
+    {
+      "file": "Informe psicológico, elaboración y características en diferentes ámbitos.pdf",
+      "title": "Informe psicológico, elaboración y características en diferentes ámbitos",
+      "lang": "EN",
+      "category": "testing"
+    },
+    {
+      "file": "MANUAL(1).pdf",
+      "title": "MANUAL",
+      "lang": "EN",
+      "category": "testing"
+    },
+    {
+      "file": "Manual del test de frases incompletas sacks.pdf",
+      "title": "Manual del test de frases incompletas sacks",
+      "lang": "ES",
+      "category": "testing"
+    },
+    {
+      "file": "Manual del Test del Arbol.pdf",
+      "title": "Manual del Test del Arbol",
+      "lang": "ES",
+      "category": "testing"
+    },
+    {
+      "file": "MANUAL_HIS_SM2016.pdf",
+      "title": "MANUAL HIS SM2016",
+      "lang": "EN",
+      "category": "testing"
+    },
+    {
+      "file": "MMPI inventario de personalidad Nuñez.pdf",
+      "title": "MMPI inventario de personalidad Nuñez",
+      "lang": "ES",
+      "category": "testing"
+    },
+    {
+      "file": "resumen de machover.pdf",
+      "title": "Resumen de machover",
+      "lang": "ES",
+      "category": "testing"
+    },
+    {
+      "file": "Tecnicas proyectivas.Tomo 2.Celener..pdf",
+      "title": "Tecnicas proyectivas.Tomo 2.Celener.",
+      "lang": "EN",
+      "category": "testing"
+    },
+    {
+      "file": "Test-de-La-Figura-Humana-de-Karen-Machover.pdf",
+      "title": "Test de La Figura Humana de Karen Machover",
+      "lang": "EN",
+      "category": "testing"
+    },
+    {
+      "file": "TestCAT-H.pdf",
+      "title": "TestCAT H",
+      "lang": "EN",
+      "category": "testing"
+    }
+  ]
+}

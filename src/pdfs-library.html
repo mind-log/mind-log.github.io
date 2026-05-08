@@ -1,0 +1,182 @@
+---
+layout: layouts/base.njk
+title: "SYS.PDF_ARCHIVE"
+description: "Mind-Log PDF Archive: A curated digital library spanning psychology, astrology, Japanese studies, and beyond."
+permalink: /pdfs-library/
+---
+<header>
+    <h1>SYS.PDF_ARCHIVE <span class="cursor"></span></h1>
+    <div class="date">
+        <span>TOTAL FILES: {{ pdfs.pdfs | length }}</span> | <span>STATUS: INDEXED</span>
+    </div>
+</header>
+
+<div class="pdf-controls">
+    <input type="text" id="pdfSearch" placeholder="SEARCH ARCHIVE..." class="search-input">
+</div>
+
+<div class="pdf-tabs-container">
+    <button class="nav-arrow left" id="pdfTabLeft" aria-label="Scroll Left">«</button>
+    <div class="pdf-tabs" id="pdfFilters">
+        <button class="pdf-tab active" data-cat="all">ALL ARCHIVES</button>
+        {% for key, name in pdfs.categories %}
+        {% set count = 0 %}{% for p in pdfs.pdfs %}{% if p.category == key %}{% set count = count + 1 %}{% endif %}{% endfor %}
+        {% if count > 0 %}<button class="pdf-tab" data-cat="{{ key }}">{{ name | upper }} ({{ count }})</button>{% endif %}
+        {% endfor %}
+    </div>
+    <button class="nav-arrow right" id="pdfTabRight" aria-label="Scroll Right">»</button>
+</div>
+
+<div class="pdf-grid" id="pdfGrid">
+    {% for item in pdfs.pdfs %}
+    <div class="pdf-card" data-category="{{ item.category }}" data-title="{{ item.title | lower }}" data-file="{{ item.file }}">
+        <div class="pdf-thumb-wrap">
+            <canvas class="pdf-thumb" data-pdf="/pdfs/{{ item.file }}"></canvas>
+            <div class="pdf-thumb-loader">
+                <span class="pdf-icon">⬡</span>
+            </div>
+            <span class="pdf-lang-badge {{ item.lang | lower }}">{{ item.lang }}</span>
+        </div>
+        <div class="pdf-card-body">
+            <h3 class="pdf-title">{{ item.title }}</h3>
+            <span class="pdf-cat-label">{{ pdfs.categories[item.category] }}</span>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- PDF Viewer Modal -->
+<div class="pdf-modal" id="pdfModal">
+    <div class="pdf-modal-header">
+        <span class="pdf-modal-title" id="pdfModalTitle"></span>
+        <div class="pdf-modal-actions">
+            <a id="pdfDownload" href="#" download class="pdf-modal-btn">↓ DOWNLOAD</a>
+            <button class="pdf-modal-btn" id="pdfClose">✕ CLOSE</button>
+        </div>
+    </div>
+    <iframe id="pdfFrame" class="pdf-frame"></iframe>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // PDF.js worker
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+    // Thumbnail rendering
+    const thumbs = document.querySelectorAll('.pdf-thumb');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                renderThumb(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '200px' });
+    thumbs.forEach(c => observer.observe(c));
+
+    async function renderThumb(canvas) {
+        const url = canvas.dataset.pdf;
+        const loader = canvas.parentElement.querySelector('.pdf-thumb-loader');
+        try {
+            const pdf = await pdfjsLib.getDocument(url).promise;
+            const page = await pdf.getPage(1);
+            const vp = page.getViewport({ scale: 1 });
+            const scale = 280 / vp.width;
+            const viewport = page.getViewport({ scale });
+            canvas.width = viewport.width;
+            canvas.height = viewport.height;
+            await page.render({ canvasContext: canvas.getContext('2d'), viewport }).promise;
+            canvas.style.opacity = '1';
+            if (loader) loader.style.display = 'none';
+        } catch (e) {
+            if (loader) loader.querySelector('.pdf-icon').textContent = '⬢';
+        }
+    }
+
+    // Modal
+    const modal = document.getElementById('pdfModal');
+    const frame = document.getElementById('pdfFrame');
+    const modalTitle = document.getElementById('pdfModalTitle');
+    const dlBtn = document.getElementById('pdfDownload');
+
+    document.querySelectorAll('.pdf-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const file = card.dataset.file;
+            const title = card.querySelector('.pdf-title').textContent;
+            frame.src = '/pdfs/' + encodeURIComponent(file);
+            modalTitle.textContent = title;
+            dlBtn.href = '/pdfs/' + encodeURIComponent(file);
+            modal.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    document.getElementById('pdfClose').addEventListener('click', closeModal);
+    modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+    function closeModal() {
+        modal.classList.remove('open');
+        frame.src = '';
+        document.body.style.overflow = '';
+    }
+
+    // Filtering
+    const cards = document.querySelectorAll('.pdf-card');
+    const search = document.getElementById('pdfSearch');
+    const filters = document.querySelectorAll('#pdfFilters .pdf-tab');
+    let activeCat = 'all';
+
+    function applyFilters() {
+        const q = search.value.toLowerCase();
+        cards.forEach(c => {
+            const matchCat = activeCat === 'all' || c.dataset.category === activeCat;
+            const matchSearch = !q || c.dataset.title.includes(q) || c.dataset.file.toLowerCase().includes(q);
+            c.style.display = (matchCat && matchSearch) ? '' : 'none';
+        });
+    }
+
+    filters.forEach(btn => btn.addEventListener('click', () => {
+        filters.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeCat = btn.dataset.cat;
+        applyFilters();
+    }));
+    search.addEventListener('input', applyFilters);
+
+    // Tab Scroll Arrows
+    const pdfTabs = document.getElementById('pdfFilters');
+    const pdfTabLeft = document.getElementById('pdfTabLeft');
+    const pdfTabRight = document.getElementById('pdfTabRight');
+
+    if (pdfTabs && pdfTabLeft && pdfTabRight) {
+        const scrollAmount = 200;
+        pdfTabLeft.addEventListener('click', () => {
+            pdfTabs.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+        });
+        pdfTabRight.addEventListener('click', () => {
+            pdfTabs.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        });
+
+        const togglePdfArrows = () => {
+            const isAtStart = pdfTabs.scrollLeft <= 5;
+            const isAtEnd = pdfTabs.scrollLeft + pdfTabs.clientWidth >= pdfTabs.scrollWidth - 5;
+            
+            pdfTabLeft.style.opacity = isAtStart ? '0' : '0.7';
+            pdfTabLeft.style.pointerEvents = isAtStart ? 'none' : 'auto';
+            
+            pdfTabRight.style.opacity = isAtEnd ? '0' : '0.7';
+            pdfTabRight.style.pointerEvents = isAtEnd ? 'none' : 'auto';
+        };
+
+        pdfTabs.addEventListener('scroll', togglePdfArrows);
+        window.addEventListener('resize', togglePdfArrows);
+        setTimeout(togglePdfArrows, 500);
+    }
+});
+</script>
+
+<footer>
+    <hr>
+    <p><a href="/">← SYS.HOME</a></p>
+</footer>
