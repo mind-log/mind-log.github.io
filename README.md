@@ -69,6 +69,15 @@ mind-log/
 
 ---
 
+## Support the Project
+
+Maintaining this project takes time, testing, and documentation work.
+
+If you'd like to support future development:
+
+[☕ Buy me a coffee](https://ko-fi.com/ebisu1og)
+
+
 <div align="center">
   <p><b>SYS.BOOT_SEQUENCE // OPTIMIZED</b></p>
   <p>© 2026 Mind-Log — Crafted by Ebisu</p>
